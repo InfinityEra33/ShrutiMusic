@@ -82,7 +82,7 @@ def about_panel(_):
     return buttons
 
 def owner_panel(_):
-    buttons = [
+  buttons = [
         [
             InlineKeyboardButton(text=_["S_H_1"], url=config.INSTAGRAM),
             InlineKeyboardButton(text=_["S_H_2"], url=config.YOUTUBE),
